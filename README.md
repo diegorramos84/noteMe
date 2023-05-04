@@ -16,7 +16,7 @@ git clone git@github.com:diegorramos84/noteMe.git
 // cd into the folder your just cloned and the server folder
 cd noteMe/server
 
-# install packages
+// install packages
 npm install
 
 // create a .env file inside the server folder
