@@ -6,7 +6,11 @@ const notesRouter = Router()
 
 
 
-notesRouter.get('/', notesController.index )
+notesRouter.post('/', notesController.create)
+notesRouter.get('/', notesController.index)
+notesRouter.get('/:id', notesController.show)
+notesRouter.patch('/:id', notesController.update)
+notesRouter.delete('/:id', notesController.destroy)
 
 
 module.exports = notesRouter
