@@ -22,7 +22,8 @@ npm install
 // create a .env file inside the server folder
 touch .env
 
-// Inside the .env file - add your postgress database url and the port you want the server to run on, e.g.:
+// Inside the .env file
+// add your postgress database url and the port you want the server to run on, e.g.:
 DB_URL = postgress/yourdatabase
 PORT = 3000
 
